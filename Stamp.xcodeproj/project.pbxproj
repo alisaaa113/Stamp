@@ -14,6 +14,12 @@
 		0B0DF266202A71D4002FB1F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B0DF264202A71D4002FB1F4 /* LaunchScreen.storyboard */; };
 		0B0DF271202A71D5002FB1F4 /* StampTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0DF270202A71D5002FB1F4 /* StampTests.swift */; };
 		0B0DF27C202A71D5002FB1F4 /* StampUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0DF27B202A71D5002FB1F4 /* StampUITests.swift */; };
+		0B0DF292202A728D002FB1F4 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B0DF28D202A728D002FB1F4 /* background.png */; };
+		0B0DF295202A7745002FB1F4 /* kappa1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B0DF294202A7745002FB1F4 /* kappa1.png */; };
+		0B0DF297202A7771002FB1F4 /* kappa2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B0DF296202A7771002FB1F4 /* kappa2.png */; };
+		0B0DF299202A779F002FB1F4 /* kappa3.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B0DF298202A779F002FB1F4 /* kappa3.png */; };
+		0B0DF29B202A77C0002FB1F4 /* kappa4.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B0DF29A202A77C0002FB1F4 /* kappa4.png */; };
+		0B0DF2A7202AF953002FB1F4 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0B0DF2A6202AF953002FB1F4 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,13 +46,18 @@
 		0B0DF260202A71D4002FB1F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0B0DF262202A71D4002FB1F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B0DF265202A71D4002FB1F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		0B0DF267202A71D4002FB1F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0B0DF26C202A71D5002FB1F4 /* StampTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StampTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B0DF270202A71D5002FB1F4 /* StampTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StampTests.swift; sourceTree = "<group>"; };
 		0B0DF272202A71D5002FB1F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0B0DF277202A71D5002FB1F4 /* StampUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StampUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B0DF27B202A71D5002FB1F4 /* StampUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StampUITests.swift; sourceTree = "<group>"; };
 		0B0DF27D202A71D5002FB1F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B0DF28D202A728D002FB1F4 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		0B0DF294202A7745002FB1F4 /* kappa1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kappa1.png; sourceTree = "<group>"; };
+		0B0DF296202A7771002FB1F4 /* kappa2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kappa2.png; sourceTree = "<group>"; };
+		0B0DF298202A779F002FB1F4 /* kappa3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kappa3.png; sourceTree = "<group>"; };
+		0B0DF29A202A77C0002FB1F4 /* kappa4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kappa4.png; sourceTree = "<group>"; };
+		0B0DF2A6202AF953002FB1F4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +113,8 @@
 				0B0DF25F202A71D4002FB1F4 /* Main.storyboard */,
 				0B0DF262202A71D4002FB1F4 /* Assets.xcassets */,
 				0B0DF264202A71D4002FB1F4 /* LaunchScreen.storyboard */,
-				0B0DF267202A71D4002FB1F4 /* Info.plist */,
+				0B0DF2A6202AF953002FB1F4 /* Info.plist */,
+				0B0DF289202A728D002FB1F4 /* Stamp素材 */,
 			);
 			path = Stamp;
 			sourceTree = "<group>";
@@ -123,6 +135,18 @@
 				0B0DF27D202A71D5002FB1F4 /* Info.plist */,
 			);
 			path = StampUITests;
+			sourceTree = "<group>";
+		};
+		0B0DF289202A728D002FB1F4 /* Stamp素材 */ = {
+			isa = PBXGroup;
+			children = (
+				0B0DF294202A7745002FB1F4 /* kappa1.png */,
+				0B0DF296202A7771002FB1F4 /* kappa2.png */,
+				0B0DF298202A779F002FB1F4 /* kappa3.png */,
+				0B0DF29A202A77C0002FB1F4 /* kappa4.png */,
+				0B0DF28D202A728D002FB1F4 /* background.png */,
+			);
+			path = "Stamp素材";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,8 +257,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B0DF266202A71D4002FB1F4 /* LaunchScreen.storyboard in Resources */,
+				0B0DF299202A779F002FB1F4 /* kappa3.png in Resources */,
+				0B0DF2A7202AF953002FB1F4 /* Info.plist in Resources */,
+				0B0DF292202A728D002FB1F4 /* background.png in Resources */,
 				0B0DF263202A71D4002FB1F4 /* Assets.xcassets in Resources */,
 				0B0DF261202A71D4002FB1F4 /* Main.storyboard in Resources */,
+				0B0DF297202A7771002FB1F4 /* kappa2.png in Resources */,
+				0B0DF295202A7745002FB1F4 /* kappa1.png in Resources */,
+				0B0DF29B202A77C0002FB1F4 /* kappa4.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
